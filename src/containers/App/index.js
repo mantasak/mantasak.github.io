@@ -12,7 +12,7 @@ import faStyles from 'font-awesome/css/font-awesome.css';
 export default class App extends React.Component {
   render () {
     return (
-        <div>
+        <div className={style.container}>
             <Content />
             <Footer />
         </div>
